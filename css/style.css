@@ -1,0 +1,49 @@
+/*  element selectors */
+
+body {background: linear-gradient(rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.6)),
+     url("https://cdn.shopify.com/s/files/1/0175/3024/products/william-morris-wallpaper-1-x-silver-stone-strawberry-thief-wallpaper-roll-william-morris-pure-strawberry-thief-wallpaper-22832079248_800x.png?v=1601555777");
+      /*opacity: 0.3;*/
+      font-size: 1.2em;
+      font-family: 'Yanone Kaffeesatz', sans-serif;}
+
+h1  {text-align: center;}
+h2  {text-align: center;}
+h3  {text-align: center;}
+h4  {text-align: center;}
+p   {text-align: center;}
+ol  {text-align: center;
+     list-style-position: inside;}
+
+img {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;} 
+    
+/* class selectors */    
+
+.headings {background-color:blanchedalmond;
+           font-family: 'Train One', cursive;}
+
+.select    {text-align: center;
+           list-style: inside;
+           display: inline;}
+      
+.painted { color: #387c6d;
+           font-size: 40px;}    
+           
+/* class selectors */ 
+
+#band_pic {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;}
+
+
+/* pseudo class selectors */
+
+a:hover {color: cadetblue;}
+
+
